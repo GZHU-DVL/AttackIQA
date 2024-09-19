@@ -26,25 +26,25 @@ The *model_pt* folder contains the checkpoint files for these models. However, w
 ##  Running Attack
 The following provides the arguments to run the attacks described in the paper.    
 
-* Attack performance against DBCNN model on LIVE/CSIQ/TID dataset.
+* Attack performance against DBCNN model on LIVE/CSIQ/TID2013 dataset.
 ```bash
 python main.py --dataset LIVE --model DBCNN --n_queries 10000  --n_squares 2  --p_init 0.04
 python main.py --dataset CSIQ --model DBCNN --n_queries 10000  --n_squares 2  --p_init 0.04
 python main.py --dataset TID --model DBCNN --n_queries 10000  --n_squares 2  --p_init 0.04
 ```
-* Attack performance against UNIQUE model on LIVE/CSIQ/TID dataset.
+* Attack performance against UNIQUE model on LIVE/CSIQ/TID2013 dataset.
 ```bash
 python main.py --dataset LIVE --model UNIQUE --n_queries 10000  --n_squares 2  --p_init 0.04
 python main.py --dataset CSIQ --model UNIQUE --n_queries 10000  --n_squares 2  --p_init 0.04
 python main.py --dataset TID --model UNIQUE --n_queries 10000  --n_squares 2  --p_init 0.04
 ```
-* Attack performance against TReS model on LIVE/CSIQ/TID dataset.
+* Attack performance against TReS model on LIVE/CSIQ/TID2013 dataset.
 ```bash
 python main.py --dataset LIVE --model TReS --n_queries 10000  --n_squares 2  --p_init 0.04
 python main.py --dataset CSIQ --model TReS --n_queries 10000  --n_squares 2  --p_init 0.04
 python main.py --dataset TID --model TReS --n_queries 10000  --n_squares 2  --p_init 0.04
 ```
-* Attack performance against LIQE model on LIVE/CSIQ/TID dataset.
+* Attack performance against LIQE model on LIVE/CSIQ/TID2013 dataset.
 ```bash
 python main.py --dataset LIVE --model LIQE --n_queries 10000  --n_squares 8  --p_init 0.09
 python main.py --dataset CSIQ --model LIQE --n_queries 10000  --n_squares 8  --p_init 0.09
